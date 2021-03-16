@@ -1,0 +1,18 @@
+:root {
+    --bg_color1: rgb(0, 255, 115);
+    --bg_color2: rgb(200, 255, 0); 
+    --t_color1: rgb(9, 55, 99);
+    --t_color2: white;
+}
+
+header {
+    display: block;
+    background-color: var(--bg_color1); 
+    height: 100px;
+    color:var(--t_color2);
+    margin: 0 auto;
+}
+
+
+    
+   
