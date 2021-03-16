@@ -5,14 +5,37 @@
     --t_color2: white;
 }
 
+*{
+    box-sizing: border-box;
+}
+
 header {
-    display: block;
     background-color: var(--bg_color1); 
     height: 100px;
     color:var(--t_color2);
-    margin: 0 auto;
+    margin: 0;
 }
 
+  
+.nav {
+    display: flex;
+    background-color: var(--bg_color1);
+    margin: 100%;
+    
+
+
+}
+
+nav a {
+    color: var(--t_color2);
+    background-color: var(--bg_color2);
+    padding: 10px 50px;
+    display: inline;
+    float: right;
+    text-decoration: none;
+    
+    
 
     
+}    
    
