@@ -68,7 +68,7 @@ a:hover {
   }
 
   .work {
-    flex: 4;
+    flex: 4;  
     background-color: var(--bg_color2);
     color: var(--t_color2);
     padding: 20px;
@@ -80,14 +80,16 @@ a:hover {
   .card header {
     padding: 20px;
   }
-  
+   
   .card p {
     text-align: center;
   }
+
   
   .card img {
     width: 100%;
   }
+  
 
   @media screen and (max-width: 768px) {
     main,
