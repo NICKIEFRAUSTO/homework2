@@ -5,15 +5,19 @@
     --t_color2: white;
 }
 
-
+* {
+    box-sizing: border-box;
+  }
+  
 
 .header {
     background-color: var(--bg_color1); 
-    height: 100px;
+    padding: 40px;
     color:var(--t_color2);
     margin: 0;
     font-size: 3em;
     font-family: 'Brush Script MT', cursive; 
+    text-align: left;
 
 }
 
@@ -22,7 +26,7 @@
     display: flex;
     background-color: var(--bg_color1);
     margin: 100%;
-    
+    /* not sure about margin */
 
 
 }
@@ -30,10 +34,10 @@
 nav a {
     color: var(--t_color2);
     background-color: var(--bg_color2);
-    padding: 10px 50px;
-    display: inline;
-    float: right;
+    padding: 10px 50px;  
+    text-align: right;
     text-decoration: none;
+    /*padding is set to 14px 20px and no display inline */
     
 
 }    
@@ -41,4 +45,53 @@ nav a {
 a:hover {
     background-color: var(--bg_color3);
     color: white
+  }
+
+  main {
+      display: flex;
+      flex-wrap: wrap;
+  }
+
+  aside {
+      flex: 1;
+      background-color: var(--bg_color3);
+      padding: 80px;
+      text-align: center;
+      color: var(--t_color2)
+  }
+
+  footer {
+    padding: 20px;
+    text-align: center; 
+    background-color: var(--bg_color3);
+    color: white
+  }
+
+  .work {
+    flex: 4;
+    background-color: var(--bg_color2);
+    color: var(--t_color2);
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .card header {
+    padding: 20px;
+  }
+  
+  .card p {
+    text-align: center;
+  }
+  
+  .card img {
+    width: 100%;
+  }
+
+  @media screen and (max-width: 768px) {
+    main,
+    nav {
+      flex-direction: column;
+    }
   }
