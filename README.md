@@ -11,7 +11,7 @@ Clicking on the link will jump to the corresponding section
 
     I created 4 sections to display with the flex-box style. 
     and used media screen to adjust for different screen sizes.
-
+![a screenshot of the page](assets\images\Screenshot.jpg)
 
     notes:
 :I had a lot of trouble with the flex-grow for my first card. 
