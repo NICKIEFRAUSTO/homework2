@@ -6,17 +6,19 @@
 }
 
 
+
 .header {
     background-color: var(--bg_color1); 
     height: 100px;
     color:var(--t_color2);
     margin: 0;
-    font-size: 2em;
+    font-size: 3em;
+    font-family: 'Brush Script MT', cursive; 
 
 }
 
   
-.nav {
+.nav  {
     display: flex;
     background-color: var(--bg_color1);
     margin: 100%;
