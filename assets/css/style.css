@@ -60,6 +60,10 @@ a:hover {
       color: var(--t_color2)
   }
 
+  .my-image{
+    width: 60%;
+  }
+
   footer {
     padding: 20px;
     text-align: center; 
