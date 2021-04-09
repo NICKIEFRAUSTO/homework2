@@ -15,7 +15,8 @@ The portfolio presents links to completed projects, with some placeholder links 
 ![screenshot][assets\images\Screenshot 2021-04-05 201559.png]
 
 ## links:
-
+Site is published through gitHub pages 
+![https://nickiefrausto.github.io/homework2/]
 
 
 
