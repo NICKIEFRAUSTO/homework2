@@ -28,7 +28,7 @@
                 <a class="navbar-item is-active">
                   Home
                 </a>
-                <a class="navbar-item">
+                <a onclick="showContact()" class="navbar-item">
                   Contact
                 </a>
                 <a href="aboutme.html" class="navbar-item">
@@ -66,12 +66,16 @@
         <nav class="tabs">
           <div class="container">
              <ul>
-              <li><a href="https://nickiefrausto.github.io/PoetryProject/" target="_blank">Project1</a></li>
-              <li><a href="https://nickiefrausto.github.io/homework6/" target="_blank">Project2</a></li>
-              <li><a " target="_blank">Project3</a></li>
-              <li><a href="./FrontEnd.html" target="_blank">Project4</a></li>
-              <li><a href="./BackEnd.html" target="_blank">Project5</a></li>
-              <li><a href="./Mern.html" target="_blank">Project6</a></li>
+              <li><a href="https://nickiefrausto.github.io/PoetryProject/" target="_blank">Project 1</a></li>
+
+              <li><a href="https://nickiefrausto.github.io/homework6/" target="_blank">Project 2</a></li>
+
+              <!-- <li><a " target="_blank">Project3</a></li> -->
+              <li><a href="./Project3.html" target="_blank">Project 3</a></li>
+
+              <li><a href="./Project4.html" target="_blank">Project 4</a></li>
+
+              <li><a href="./Project5.html" target="_blank">Project 5</a></li>
             </ul> 
           </div>
         </nav>
@@ -79,9 +83,10 @@
     </section>
   </section>
   <section class="section">
-    <div class="container-bottom">
+  <div class="container-bottom">
+      <div id="myContact">
       <h1 >
-      Contact Me
+      <a id="contact">Contact Me</a>
       </h1>
       <p >
         <a href="mailto:nickiefrausto@gmail.com">Send email</a>
@@ -90,7 +95,18 @@
       </p>
       <p><a href="https://www.linkedin.com/in/nicole-frausto-33b59553/">Linkedin:</a>
       </p>
-    </div>
+      </div>
+  </div>
+  <script>
+    function showContact() {
+      let show = document.getElementById("myContact");
+      if (show.style.display === "none") {
+        show.style.display = "block";
+      } else {
+        show.style.display = "none";
+      }
+    }
+    </script>
     
   </body>
 </html>
